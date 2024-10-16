@@ -31,8 +31,8 @@ This is the initial release of the plugin. We welcome any feedback, bug reports,
 Thank you for using our plugin and helping us improve it!
 ## Default Config
 ```yml
-IsEnabled { get; set; } = true;
-Debug { get; set; } = false;
-Damage { get; set; } = true;
-UnbreakebleJail { get; set; } = true;
+IsEnabled = true;
+Debug = false;
+Damage = true;
+UnbreakebleJail = true;
 ```
