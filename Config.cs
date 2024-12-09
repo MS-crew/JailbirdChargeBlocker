@@ -6,7 +6,7 @@ namespace JailbirdChargeWarner
     {
         public bool IsEnabled { get; set; } = true;
         public bool Debug { get; set; } = false;
-        public bool Damage { get; set; } = true;
+        public bool AttackDamage { get; set; } = true;
         public bool UnbreakebleJail { get; set; } = true;
     }
 }

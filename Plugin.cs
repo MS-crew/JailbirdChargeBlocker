@@ -1,7 +1,6 @@
-﻿using Exiled.API.Features;
-using Exiled.Events.EventArgs.Item;
+﻿using System;
 using HarmonyLib;
-using System;
+using Exiled.API.Features;
 
 namespace JailbirdChargeWarner
 {
@@ -15,9 +14,9 @@ namespace JailbirdChargeWarner
 
         public override string Prefix => "JailbirdChargeBlocker";
 
-        public override Version RequiredExiledVersion { get; } = new Version(8, 12, 0);
+        public override Version RequiredExiledVersion { get; } = new Version(9, 0, 0);
 
-        public override Version Version { get; } = new Version(1, 1, 0);
+        public override Version Version { get; } = new Version(1, 1, 2);
         private Harmony harmony;
         public override void OnEnabled()
         {
@@ -29,7 +28,7 @@ namespace JailbirdChargeWarner
         public override void OnDisabled()
         {
             Instance = null;
-            harmony.UnpatchAll();
+            harmony.UnpatchAll(harmonyID: "jailbirdchargeblocker");
             base.OnDisabled();
         }
     }
