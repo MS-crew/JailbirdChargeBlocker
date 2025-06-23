@@ -1,7 +1,7 @@
 <h1 align="center">Jailbird Charge Blocker</h1>
 <div align="center">
 <a href="https://github.com/MS-crew/JailbirdChargeBlocker/releases"><img src="https://img.shields.io/github/downloads/MS-crew/JailbirdChargeBlocker/total?style=for-the-badge&logo=githubactions&label=Downloads" href="https://github.com/MS-crew/JailbirdChargeBlocker/releases" alt="GitHub Release Download"></a>
-<a href="https://github.com/MS-crew/JailbirdChargeBlocker/releases"><img src="https://img.shields.io/badge/Build-1.1.0-brightgreen?style=for-the-badge&logo=gitbook" href="https://github.com/MS-crew/JailbirdChargeBlocker/releases" alt="GitHub Releases"></a>
+<a href="https://github.com/MS-crew/JailbirdChargeBlocker/releases"><img src="https://img.shields.io/badge/Build-1.2.0-brightgreen?style=for-the-badge&logo=gitbook" href="https://github.com/MS-crew/JailbirdChargeBlocker/releases" alt="GitHub Releases"></a>
 <a href="https://github.com/MS-crew/JailbirdChargeBlocker/blob/master/LICENSE"><img src="https://img.shields.io/badge/Licence-GNU_3.0-blue?style=for-the-badge&logo=gitbook" href="https://github.com/MS-crew/JailbirdChargeBlocker/blob/master/LICENSE" alt="General Public License v3.0"></a>
 <a href="https://github.com/ExMod-Team/EXILED"><img src="https://img.shields.io/badge/Exiled-8.12.2-red?style=for-the-badge&logo=gitbook" href="https://github.com/ExMod-Team/EXILED" alt="GitHub Exiled"></a>
 
