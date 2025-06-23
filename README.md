@@ -10,7 +10,7 @@
 ## Jailbird Charge blocker
 
 - **Jailbird Charge block:** With this plugin, jailbird does not charge, even the animation does not activate, right click does not work.
-- **Jailbird Attack block (adjustable):** If you want jailbird not to cause damage for rp, with this option jailbird will not do real damage, it will only hit apparently.
+- **Jailbird Damage Override (adjustable):** If you want jailbird not to cause damage for rp, or change damage ammount you can.
 - **Unbreakeble Jailbird (adjustable):** In the normal game, Jailbird will be broken in 5 hits by shaking it, but with this setting it will not break.
 
 ## Installation
@@ -30,8 +30,9 @@ This is the initial release of the plugin. We welcome any feedback, bug reports,
 Thank you for using our plugin and helping us improve it!
 ## Default Config
 ```yml
-IsEnabled: true
-Debug: false
-Damage: true
-UnbreakebleJail: true
+is_enabled: true
+debug: false
+override_damage: false
+damage: 20
+unbreakeble_jail: true
 ```
